@@ -1,0 +1,16 @@
+
+body{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+h1{text-align: center;}
+
+form{width: 500px; margin: 0% auto; padding: 1em; border: 1px solid #ccc; border-radius: 1em;}
+
+form div + div{ margin-top: 1em; }
+
+label{width: 280px; text-align: right; display: inline-block;}
+
+input{font-size: 1em; width: 200px; border: 1px solid #999; box-sizing: border-box ;}
+
+div{text-align: center;}
+
+.resultados{width: 400px; margin: 20px auto; padding: 1em; border: 1px solid #ccc;}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indice de masa corporal </title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora del Índice de Masa Corporal de una persona</h1>
+    </header>
+    <main>
+        <form>
+            <div>
+                <label for="peso">peso de la persona en kilogramos:</label>
+                <input type="text"id="Peso">
+            </div>
+            <div>
+                <label for="Estatura">Estatura de la persona en metros:</label>
+                <input type="text"id="Estatura">
+            </div>
+            <div id="boton-calcular "> 
+                <button type="button"
+                onclick="indiceDeMasaCorporal();">calcular</button>
+            </div>
+            <div id="resultados">
+                <p>El Indice de masa corporalde la personas es:</p>
+                <p id="imc">25.45</p>
+                <p>El estado nutricional de la persona es:</p>
+                <p id="situacion-nutricional">Peso normal</p>
+            </div>
+        </form>
+    </main>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
